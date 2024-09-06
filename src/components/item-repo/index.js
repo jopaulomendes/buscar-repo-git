@@ -10,7 +10,7 @@ function ItemRepo({ repo, handleRemoveRepo }) {
             <h3>{repo.name}</h3>
             <p>{repo.full_name}</p>
             <a href={repo.html_url} target='_blank' rel="noreferrer">Ver repositório</a> <br />
-            <button className='remover' onClick={handleRemove} style={{ background: 'none', border: 'none', color: 'blue', textDecoration: 'underline', cursor: 'pointer' }}>
+            <button className='remover' onClick={handleRemove} >
                 Remover
             </button>
             <hr />
